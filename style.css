@@ -271,6 +271,9 @@ span{
     section{
         padding: 40px !important;
     }
+    #contact-form{
+        padding-left: 0;
+    }
 }
 @media(prefers-reduces-motion){
     .hidden{
