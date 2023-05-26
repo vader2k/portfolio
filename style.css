@@ -428,3 +428,8 @@ textarea{
     display: flex;
     justify-content: space-between;
 }
+.contact-container{
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
