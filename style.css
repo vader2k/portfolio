@@ -245,6 +245,11 @@ span{
     padding: 20px;
 }
 @media only screen and (max-width:768px){
+    #last-mail{
+        height: 30px;
+        width: 200px !important;
+        margin-left: 60px !important;
+    }
     .boxes{
         display: grid;
         gap: 60px;
@@ -274,6 +279,12 @@ span{
     #contact-form{
         padding-left: 0;
     }
+    textarea{
+        width: 300px;
+        padding-left: 30px;
+        margin-left: 15px;
+    }
+
 }
 @media(prefers-reduces-motion){
     .hidden{
@@ -395,16 +406,12 @@ textarea{
     font-size: 1.5rem;
     padding-top: 40px;
     padding-bottom: 40px;
-    text-align: center;
 }
-.contacts{
-    display: grid;
-    place-items: center;
-    align-content: center;
-}
+
 #firstly{
     border: 1px solid rgba(0, 255, 255, 0.11);
     border-radius: 50px 1px 50px 1px;
+    overflow: hidden;
 }
 .hidden{
     opacity: 0;
